@@ -22,7 +22,7 @@ La API permite administrar usuarios con la siguiente estructura:
 
 ## Tecnologías utilizadas
 
-- :contentReference[oaicite:1]{index=1} Spring Boot
+- Spring Boot
 - Swagger / OpenAPI
 - Java
 - Maven
