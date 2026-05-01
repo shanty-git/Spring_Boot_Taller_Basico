@@ -92,3 +92,13 @@ http://localhost:8080/swagger-ui/index.html
 ## Autor
 
 Proyecto desarrollado con fines académicos para el aprendizaje de APIs REST con Spring Boot.
+
+Nombre: David Santiago Zapata Perez
+
+Código: 20232578003
+
+Institución: Universidad Distrital Francisco José de Caldas
+
+Asignatura: Programación por componentes
+
+Grupo: 578-302
