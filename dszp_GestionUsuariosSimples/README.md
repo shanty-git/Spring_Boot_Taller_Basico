@@ -1,6 +1,6 @@
 # API Gestión de Usuarios
 
-Proyecto desarrollado con :contentReference[oaicite:0]{index=0} **Spring Boot** que implementa una API REST básica para la gestión de usuarios.
+Proyecto desarrollado con Spring Boot que implementa una API REST básica para la gestión de usuarios.
 
 Este servicio permite realizar operaciones CRUD básicas sobre usuarios, específicamente:
 
