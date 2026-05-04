@@ -96,10 +96,6 @@ http://localhost:8080/swagger-ui/index.html
 
 ## Autor
 
-Desarrollado por Santiago Zapata.
-
-# Autor
-
 Proyecto desarrollado con fines académicos para el aprendizaje de APIs REST con Spring Boot.
 
 Nombre: David Santiago Zapata Perez
