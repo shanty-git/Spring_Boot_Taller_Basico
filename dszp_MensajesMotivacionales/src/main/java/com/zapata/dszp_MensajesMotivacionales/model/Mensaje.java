@@ -1,0 +1,55 @@
+package com.zapata.dszp_MensajesMotivacionales.model;
+
+import java.util.Objects;
+
+public class Mensaje {
+
+	private Long id;
+	private String texto;
+	
+	public Mensaje() {
+	}
+
+	public Mensaje(Long id, String texto) {
+		this.id = id;
+		this.texto = texto;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getTexto() {
+		return texto;
+	}
+
+	public void setTexto(String texto) {
+		this.texto = texto;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id, texto);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Mensaje other = (Mensaje) obj;
+		return Objects.equals(id, other.id) && Objects.equals(texto, other.texto);
+	}
+
+	@Override
+	public String toString() {
+		return "Mensaje [id=" + id + ", texto=" + texto + "]";
+	}
+}
